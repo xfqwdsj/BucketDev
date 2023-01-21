@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "The main package of the Android SDK.",
+    "homepage": "https://developer.android.com/studio",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://developer.android.com/studio/terms.html"
+    },
+    "suggest": {
+        "Java": "java/oraclejdk"
+    },
+    "notes": "Please try not to use sdkmanager to install SDK packages, but use the packages in this bucket.",
+    "env_set": {
+        "ANDROID_HOME": "$dir"
+    },
+    "persist": [
+        ".knownPackages",
+        "add-ons",
+        "build-tools",
+        "cmake",
+        "cmdline-tools",
+        "emulator",
+        "extras",
+        "licenses",
+        "ndk-bundle",
+        "ndk",
+        "patcher",
+        "platform-tools",
+        "platforms",
+        "skiaparser",
+        "sources",
+        "system-images",
+        "tools"
+    ]
+}
