@@ -6,6 +6,7 @@
         "identifier": "Freeware",
         "url": "https://developer.android.com/studio/terms.html"
     },
+    "url": "https://raw.githubusercontent.com/xfqwdsj/BucketDev/master/README.md",
     "suggest": {
         "Java": "java/oraclejdk"
     },
