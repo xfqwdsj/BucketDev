@@ -17,7 +17,7 @@ Scoop bucket for developent.
 To add this bucket, run:
 
 ```shell
-scoop bucket add LFDev https://github.com/xfqwdsj/BucketDev.git
+scoop bucket add lfdev https://github.com/xfqwdsj/BucketDev.git
 ```
 
 To install, do:
