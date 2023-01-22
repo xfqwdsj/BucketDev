@@ -1,4 +1,4 @@
-Get-ChildItem "$dir\$component" | ForEach-Object {
+Get-ChildItem -Path "$dir\$component" | ForEach-Object {
     $source = "$target_dir\$($_.Name)"
 
     if ($_.PSIsContainer) {
