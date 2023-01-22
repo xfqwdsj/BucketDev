@@ -1,4 +1,4 @@
-. setup.ps1
+. "$bucketsdir\$bucket\setup.ps1"
 
 Get-ChildItem -Path "$dir\$component" | ForEach-Object {
     $source = "$target_dir\$($_.Name)"
