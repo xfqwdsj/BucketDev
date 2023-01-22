@@ -9,6 +9,7 @@ Scoop bucket for developent.
 - flutter
 - android-sdk-base (No manual installation required)
 - android-sdk-cmdline-tools
+- android-sdk-platform-tools
 - android-sdk-tools (Deprecated)
 
 ## How do I install these manifests?
