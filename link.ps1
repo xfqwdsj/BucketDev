@@ -1,7 +1,3 @@
-$component = ([string]$app).Substring(12)
-$target_dir = "$(persistdir android-sdk-base $global)\$component"
-Remove-Item -Path "$target_dir\*" -Force -Recurse
-
 Get-ChildItem "$dir\$component" | ForEach-Object {
     $source = "$target_dir\$($_.Name)"
 

@@ -9,9 +9,9 @@
     "url": "https://raw.githubusercontent.com/xfqwdsj/BucketDev/master/README.md",
     "hash": "7cc5dbc9ce93b08c359838f95dadaf3c9fdecd78354bbf14b4286c06bf733a27",
     "suggest": {
-        "Java": "java/oraclejdk"
+        "Java": "java/openjdk"
     },
-    "notes": "Please try not to use sdkmanager to install SDK packages, but use the packages in this bucket.",
+    "notes": "Please try not to use sdkmanager to install cmdline-tools, but use the packages in this bucket.",
     "env_set": {
         "ANDROID_HOME": "$dir"
     },
