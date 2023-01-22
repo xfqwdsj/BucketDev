@@ -18,7 +18,7 @@
         "cmdline-tools\\latest\\bin\\lint.bat",
         "cmdline-tools\\latest\\bin\\profgen.bat",
         "cmdline-tools\\latest\\bin\\retrace.bat",
-        "cmdline-tools\\latest\\bin\\screenshort2.bat",
+        "cmdline-tools\\latest\\bin\\screenshot2.bat",
         "cmdline-tools\\latest\\bin\\sdkmanager.bat"
     ],
     "checkver": "commandlinetools-win-(\\d+)",
