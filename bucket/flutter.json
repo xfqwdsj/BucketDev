@@ -8,9 +8,7 @@
         "Android SDK Command-line Tools": "android-sdk-command-line-tools"
     },
     "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.3.10-stable.zip",
-    "hash": [
-        "bcf931ae554f3e01190a4f278ec7dbda7c61ded73b23e3d75232a8eecbf86399"
-    ],
+    "hash": "bcf931ae554f3e01190a4f278ec7dbda7c61ded73b23e3d75232a8eecbf86399",
     "extract_dir": "flutter",
     "post_install": [
         "flutter-dev-setup.ps1",
