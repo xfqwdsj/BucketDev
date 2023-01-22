@@ -10,7 +10,7 @@
     "hash": "8a90e6a3deb2fa13229b2e335efd07687dcc8a55a3c544da9f40b41404993e7d",
     "extract_dir": "cmdline-tools",
     "extract_to": "cmdline-tools\\latest",
-    "post_install": [". \"$bucketsdir\\$bucket\\setup.ps1\"",". \"$bucketsdir\\$bucket\\link.ps1\""],
+    "post_install": ". \"$bucketsdir\\$bucket\\link.ps1\"",
     "pre_uninstall": ". \"$bucketsdir\\$bucket\\setup.ps1\"",
     "bin":[
         "cmdline-tools\\latest\\bin\\apkanalyzer.bat",
