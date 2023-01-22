@@ -11,7 +11,7 @@
     "extract_dir": "cmdline-tools",
     "extract_to": "cmdline-tools\\latest",
     "post_install": ". \"$bucketsdir\\$bucket\\link.ps1\"",
-    "pre_uninstall": ". \"$bucketsdir\\$bucket\\setup.ps1\"",
+    "pre_uninstall": ". \"$bucketsdir\\$install.bucket\\setup.ps1\"",
     "bin":[
         "cmdline-tools\\latest\\bin\\apkanalyzer.bat",
         "cmdline-tools\\latest\\bin\\avdmanager.bat",
