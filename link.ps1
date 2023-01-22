@@ -5,7 +5,7 @@ Remove-Item -Path "$target_dir\*" -Force -Recurse
 Get-ChildItem "$dir\$component" | ForEach-Object {
     $source = "$target_dir\$($_.Name)"
 
-    if (is_directory $source) {
+    if ($_.PSIsContainer) {
         New-Item -Path $source -ItemType Junction -Value $_
         attrib $source +r /l
     } else {
