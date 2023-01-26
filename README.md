@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/xfqwdsj/BucketDev/actions/workflows/ci.yml/badge.svg)](https://github.com/xfqwdsj/BucketDev/actions/workflows/ci.yml) [![Excavator](https://github.com/xfqwdsj/BucketDev/actions/workflows/excavator.yml/badge.svg)](https://github.com/xfqwdsj/BucketDev/actions/workflows/excavator.yml)
 
-Scoop bucket for developent.
+Scoop bucket for developent. Some manifests are modified from official buckets, thanks to contributors.
 
 ## Supported Development Kits
 
