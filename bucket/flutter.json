@@ -1,13 +1,13 @@
 {
-    "version": "3.7.5",
+    "version": "3.7.6",
     "description": "Google's mobile app SDK for crafting high-quality native interfaces on iOS and Android",
     "homepage": "https://flutter.dev",
     "license": "BSD-3-Clause",
     "suggest": {
         "Android SDK Command-line Tools": "android-sdk-command-line-tools"
     },
-    "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.7.5-stable.zip",
-    "hash": "ea543520a5051e4512c75828ccf3085e586b6c62712c62cb33bf0b3d386a8ba1",
+    "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.7.6-stable.zip",
+    "hash": "f6359d963bdf330fe81b33fcd37e954810a6f234ec27a4c7e657787d8997e4a8",
     "extract_dir": "flutter",
     "bin": [
         "bin\\dart.bat",
